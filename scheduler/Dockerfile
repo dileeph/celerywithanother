@@ -26,6 +26,7 @@ RUN python --version
 COPY . /
 WORKDIR /app
 
+RUN chmod a+x bootstrap.sh
 
 CMD ["supervisord", "-c", "/etc/supervisor.conf"]
 EXPOSE 5000
