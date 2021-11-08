@@ -39,3 +39,4 @@ wcwidth==0.2.5
 Werkzeug==2.0.2
 zipp==3.6.0
 zope.event==4.5.0
+supervisor-stdout==0.1.1
